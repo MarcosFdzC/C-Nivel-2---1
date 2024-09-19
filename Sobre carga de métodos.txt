@@ -1,0 +1,4 @@
+Sobre carga de métodos(constructores/parámetros son métodos de diferentes formas conceptuales):
+
+La sobre carga de métodos es un concepto que permite en una clase tener varios métodos con el mismo nombre pero diferentes firmas(la firma está compuesta por el nombre del método y los parámetros del mismo).
+La diferencia entre ellos está en el tipo, el orden o cantidad de sus parámetros.

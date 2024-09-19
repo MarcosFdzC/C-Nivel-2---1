@@ -1,0 +1,11 @@
+						Interfaces:
+
+Una clase permite implementar muchas interfaces.
+Es un contrato que implementaremos en una clase, dicha clase debe cumplir lo que ese contrato define.
+
+Utilidades:
+	1: La interfaz obliga por contrato a que una clase implemente cierto método, propiedad, evento o indexador que necesita la 	   interfaz.
+	   Solo declara los miembros, luego la clase tiene la responsabilidad de definir el comportamiento de dichos miembros.
+	   Una clase puede implementar varias interfaces, esto es muy útil ya que la herencia múltiple no existe en C#.
+	   
+	2: Segmentar objetos diferenciando objetos que por su interfaz aplican un método en común. Así creando grupos de objetos que 	   implementan cierto método en la interfaz.

@@ -1,0 +1,14 @@
+						Tipo de clases:
+
+Existen tipos de clases "especiales" que son: abstractas, estáticas, y sealed(sellada).
+
+abstract, static y sealed se ponen al inicio de una clase ej:
+abstract class Persona {} esto hace que ya no se puedan crear instancias/objetos de la clase persona porque es una clase abstracta.
+
+
+Abstract: nos sirve para definir que una clase no será instanciada, solo se podrán crear objetos de sus clases hijas.
+
+Static: define que una clase no se puede instanciar, heredar o ser heredada, solo se puede usar.
+	Se suele usar para crear clases helper, son clases que estaremos utilizando seguido y nos ayudaran usando sus métodos.
+
+Sealed: esto no nos permite heredar esta clase. Por lo tanto una clase que no tendrá familia. Podría servirnos para terminar una jerarquía.

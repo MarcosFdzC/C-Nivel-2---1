@@ -1,0 +1,36 @@
+Consultas SQL
+
+
+
+comentario se comienda con doble guion, asi : --
+
+                                            -- Leer datos
+Select * From TIDOSEDICION (Esto selecciona para mostrar todos los datos en la tabla "TIPOS DE EDICION")
+
+Select Titulo, CantidadCanciones From DISCOS(selecciona solo algunas columnas de la tabla de estilos)
+
+Select D.Titulo, D.CantidadCanciones, E.Descripcion as Estilo From DISCOS D, ESTILOS E
+where D.IdEstilo = E.id (primero le ponemos un alias a las tablas, en este caso a la tabla DISCOS le pusimos el alias "D" y a la tabla estilos el alias "E" para que tenga lógica el alias)
+(Luego podemos utilizar el alias "." la columna que queremos traer ej "D.Titulo")
+(con el "where" creamos una condicion donde solo se mostraran los datos cuando el contenido de la columna IdEstilos de la tabla DISCOS(D.IdEstilos) coincida con el contenido de la columna Id de la tabla Estilo(E.Id))
+
+
+                                            -- Escribir datos 
+
+insert into DISCOS (Titulos, CantidadCanciones) values ('El titulo...', 10)  (Elegimos en que columnas queremos escribir y las escribimos en el orden que llamos a cada columna )
+insert into DISCOS values () (Asi solo tendremos que cargar los datos de manera ordenada como fueron creados.)
+
+                                            -- Modificar datos
+
+
+update ESTILOS set Descripcion = 'Country' where id = 1 (Sin el where este comando modifica todos los datos y aqui solo modificamos los datos donde el id sea igual a 1 )
+
+                                            -- Eliminar 
+delete from discos where id = 1002
+
+
+
+
+
+
+

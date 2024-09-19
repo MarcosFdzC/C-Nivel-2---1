@@ -1,0 +1,11 @@
+Tipos por valor y tipos por referencia en Programación Orientada a Objetos.
+
+Tipos valor: son básicamente las variables comunes.	
+
+El tipo referencial son los objetos. 
+Ej: Vehículo v1 = new Vehículo(); invocando a la palabra reservada "new" llama al constructor que se encarga de crear la nueva instancia de un objeto y la asigna a la variable de tipo Vehículo es decir v1.
+
+Si solo creamos la variable "Vehiculo v1;" creamos la variable de tipo Vehiculo en la memoria pero no el objeto.
+Las variables que albergan datos se guardan una sección de la memoria y los objetos se crean/guardan en una sección diferente de la memoria pero con una conexión a la variable mediante referencia.
+Si creamos la variable sin crear la instancia se da un error muy común de referencia nula "NullReferenceExeption".
+Esto quiere decir que tenemos una variable del tipo objeto creada, pero no tiene referencia a ningún objeto.

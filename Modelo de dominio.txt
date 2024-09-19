@@ -1,0 +1,22 @@
+					Modelo de dominio
+
+Introducción:
+
+La forma en la que vamos a diseñar y encarar nuestro proyecto se le llama "ciclo de vida del desarrollo del sistema" separados por etapas.
+Esto hay que tenerlo en cuenta porque ya no se trata de crear un nuevo proyecto en Visual Studio sino que hay que pensarlo en "papel" antes de crearlo y pensar como lo vamos a encarar, el orden, etc.
+
+Hay diferentes estrategias, por ejemplo una de ellas es empezar por la base de datos.
+
+La propuesta para este curso basándonos en los conocimientos adquiridos es tomar como punto de partida el modelo de dominio.
+
+Es un esquema de clases, modelaremos un diagrama con una pseudo notación UML, estableceremos las relaciones de asociación y de herencia.
+Modularizaremos todo en familia, jerarquía con sus relaciones, atributos, tipos de datos, etc.
+Esto nos dará el alcance de nuestra aplicación.
+
+Incluir todo lo que se nos ocurra en formato de clases y relaciones. Luego empezaremos a iterar y ajustar sobre la marcha.
+
+Charla de diseño modelo de dominio:
+Lo primero que tenemos que hacer es conocer la información, la funcionalidad que va a tener y especialmente los datos/elementos de la realidad que va a manipular esa aplicación.
+Luego hacemos el modelo de dominio.
+
+

@@ -1,0 +1,24 @@
+						Sobre escritura de métodos
+(no es lo mismo que sobre carga)
+La sobre carga permite a una clase tener un método repetido más de una vez pero con diferentes firmas(nombre del método(parámetro))
+donde la diferencia está en los parámetros, cantidad u orden de los mismos.
+
+La sobre escritura es un concepto similar, permite agarrar de una clase heredada un método que ya existe y sobre escribirlo.
+Se define como sobre escritura porque ese método que utilizaremos no se encuentra en la clase actual en la que estamos trabajando.
+Esto quiere decir que ese método que vamos a redefinir es heredado de una clase mas arriba en la jerarquía.
+
+Los métodos tienen que ser de tipo virtual si queremos sobre escribirlos
+Ejemplo: 
+	public virtual string comunicarse () este es un método normal que lo seteamos como "virtual".
+	{
+	    return "ruido... ruido...";
+	}
+
+Luego lo que podríamos hacer con este método genérico es sobre escribirlo en la forma que se comunica cada animal.
+Ejemplo si nuestra clase es gato: 
+	public override string comunicarse ()
+		{
+			return "miau miau...";
+		}
+Al sobre escribir el método "comunicarse()" no necesitamos crear el método "comunicarseGato()" y asi para cada animal.
+Simplemente sobre escribimos el método "comunicarse()" en cada clase de un animal distinto.

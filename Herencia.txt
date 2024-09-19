@@ -1,0 +1,15 @@
+							Herencia
+
+La herencia es una relación entre clases, que nos permite tener una jerarquía de clases.
+Esto quiere decir que la clase hija hereda/adquiere las particularidades de esa clase madre.
+
+Por ejemplo podemos heredar de manera manual los atributos, métodos etc. de una clase a otra mas específica.
+
+Siempre partimos y creamos las clases pensando primero en como armaremos la familia y su relación.
+Básicamente tenemos que armas las clases ya pensando en su herencia.
+Por ejemplo: Tenemos la clase Madre/Base que en este caso es "Persona"(porque todas las otras clases como "Líder" o "Developer" son personas) y le heredaremos los datos a otras clases como "Líder", "Develpoper" y "Tester".
+
+Lectura: se lee con la palabre "es".
+	la herencia se le como ES, ejemplo: un "Líder" ES una "Persona", un "Tester" es una "Persona" etc.
+
+ 

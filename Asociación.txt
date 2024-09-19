@@ -1,0 +1,16 @@
+								Asociación:
+
+Normalmente conocida como composición.
+
+Hay dos tipos de asociaciones: 1 composición y 2 agregación.
+Es una relación entre clases que se diferencian de manera conceptual en base a la cercanía de la relación, es decir si un objeto puede nacer sin otro o no.
+
+Ejemplo: un objeto "auto" tiene una asociación por composición con el objeto "chasis" porque no puede nacer sin él, no puede ser 	 agregado posteriormente, debe ser agregado en un método porque no podremos manipularlo desde fuera, solo leerlo. 
+	 En cambio la relación con el objeto "motor" es de agregación porque el auto lo iremos armando por parte y luego le sumaremos 	 un objeto "motor". 
+
+
+Composición:
+Agregación: 
+
+Lectura: se lee con la palabra "tiene".
+	la forma en que se lee una asociación es un "auto" TIENE un "chasis" un "auto" TIENE un "motor", etc.

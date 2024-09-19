@@ -1,0 +1,49 @@
+Colecciones POO
+
+Es como un vector pero evolucionado.
+Por ejemplo una colección tiene tamaño dinámico y no tengo que definir el tamaño manualmente a la hora de crearlo.
+
+Son más de 10 colecciones diferentes, aunque la que más se usa es la de tipo listado.
+
+List<Camioneta> listaCamionetas = new List<Camioneta>(); Asi creamos la variable de tipo lista y la asignamos a una lista por medio de una referencia.
+
+
+Primero tenemos que crear los objetos de tipo camioneta para luego agregarlos a la lista de la siguiente forma:
+
+listaCamionetas.Add(c1);
+listacamionetas.Add(c2);
+listaCamionetas.Add(c3);
+
+Como tipo de dato podemos poner una clase madre y luego en la lista agregar con Add cualquier objeto con otro tipo de dato que sea una clase hija de la clase que utilizamos para crear la lista. 
+Ejemplo: la clase madre puede es animal y abajo tenemos clases como perro y gato.
+podemos crear la lista animal: List<Animal> listaAnimales = new List<Animal>; 
+y agregamos dos clases hijas
+listaAnimales.Add(perro1);(clase de tipo perro pero es clase hija de Animal)
+listaAnimales.Add(gato2);(clase de tipo gato pero es hija de la clase Animal)
+
+
+Para hacer referencia a un articulo de la lista, lo hacemos igual que con vectores:
+ Console.WriteLine("El color es" + listaCamionetas[0].color); De esta manera accedemos a un índice e incluso a un atributo en concreto. 
+listaCamionetas[1].color = "Negra";
+
+listaCamionetas.Remove(c3);
+
+
+                                              FOREACH
+ 
+Esta es otra característica interesante de las colecciones, y es que tenemos este nuevo ciclo que funciona para girar las vueltas que tenga nuestra lista sin necesidad de estar ajustando el tamaño de la lista.
+
+foreach (var item in collection)(estructura generica)
+{
+	var: En la parte de var pondremos el tipo de dato, en este caso Camioneta.
+	item: esto lo podemos dejar asi, pero es conveniente ponerle un nombre descriptivo al item
+	collection: acá va el nombre de la colección que estamos manipulando
+	
+}
+Ej:
+foreach (Camioneta item in lista.Camionetas)
+{
+	Console.WriteLine("El color es: " + item.color);
+}
+
+ 

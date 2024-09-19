@@ -1,0 +1,43 @@
+							Notas sobre Clases
+
+CLASES:
+       Una clase encapsula datos y comportamientos relacionados en un solo lugar, lo que permite crear múltiples objetos basados en 	esta clase.
+UNA CLASE TIENE ATRIBUTOS Y UN OBJETO TIENE INFORMACIÓN.
+	Primero tenemos que pensar una definición de la clase, es decir pensar que es y que compone la clase.
+	Conceptualmente intentamos representar algo de la vida real en un objeto virtual.
+	Componentes:
+		Atributo: variables que representan las características del objeto.
+		(Ej: clase 'persona' atributos 'nombre' 'edad' y 'altura').
+ 
+		Métodos: funciones que definen los comportamientos/acciones que un objeto de esa clase puede realizar.
+		(Ej: en la clase persona el método podría ser 'caminar' o 'hablar'). 
+
+		Constructor: Es un método especial que se ejecuta automáticamente cuando se crea un nuevo objeto de la clase. Su 		función principal es inicializar los tributos del objeto.
+		Normalmente es heredado, pero podemos crearlo manualmente al inicio para exigir un inicio del objeto.
+
+		Modificadores de acceso: Determinan la visibilidad de los atributos y métodos de la clase desde fuera de la misma. 		Los más comunes son 'Public' 'private' y 'protected'.
+	
+
+Objetos:
+	Los objetos son las distintas instancias de nuestra clase.
+
+	Conceptos de objetos: cuando nosotros creamos un objeto, los valores que guardamos en los atributos de la clase pasan a ser 	información del objeto. Porque son datos dentro de un contexto que le dan un significado.
+	Estado de un objeto: es la información que contiene un objeto en determinado momento.
+	Comportamiento: los métodos definidos en la clase una vez creado el objeto pasan a ser el comportamiento del mismo.  
+
+
+
+
+
+Propiedades:
+	    Las propiedades son pseudo funciones que facilitan el acceso de forma controlada a nuestro objeto y permiten agregarle 	    lógica adicional al leer o escribir los atributos de un objeto(Ej: validar si se cumple una función antes de escribir un 	    dato).
+	    En c# las propiedades son pseudo métodos pero se escriben y funcionan un poco diferente.
+	    El fin del método y la propiedad es la misma, manipular los datos del objeto, solo que la sintaxis es algo distinta.
+
+Encapsulamiento:
+		El encapsulamiento define que no se puede acceder desde fuera a ninguna propiedad/atributo de la clase.
+		Deben estar ocultos al exterior.
+		Se determina si se quiere acceder o no, siempre de forma indirecta agregando privado, público, protegido, interno, 		etc.
+Comportamiento: 
+		El comportamiento viene a ser los métodos que definen lo que hace el objeto.
+		Ejemplo un método que calcule y diga la edad que tiene en base al año de nacimiento y el nombre que se seteo en un 		constructor.
